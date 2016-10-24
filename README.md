@@ -1,7 +1,11 @@
 # Tweets_Dumper
 Python script to collect tweets from Twitter
 
-For now, it collects the latest tweets from a specific Twitter user.
+userTweets_to_sqlite.py:
+* collects the latest tweets from a specific Twitter user.
+
+streamTweets_to_sqlite.py
+* collects streams of tweets filtered based on pre-specified words.
 
 Requirements:
 * Install tweepy
