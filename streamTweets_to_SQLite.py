@@ -62,4 +62,4 @@ class MyStreamListener(tweepy.StreamListener):
             print('Error 420: DISCONNECTING THE STREAM')
             return False
 
-get_tweets_stream(('#sad', '#happy')) # specify words to filter here!
+get_tweets_stream(('#sad', 'good', 'love', '#happy')) # specify words to filter here!
