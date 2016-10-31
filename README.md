@@ -14,4 +14,4 @@ Requirements:
 * Create a Twitter app at https://apps.twitter.com/ to get credentials
 
 
-To know what the collected data looks like, check examples of outputs from Tweepy framework in 'tweets_structure' folder.
+To know what the collected data looks like before being written to the database, check examples of outputs from Tweepy framework in 'tweets_structure' folder.
