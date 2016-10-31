@@ -9,13 +9,13 @@ __streamTweets_to_sqlite.py__:
 * collects streams of tweets filtered based on pre-specified words.
 
 
-Requirements:
+__Requirements:__
 * Install tweepy
 * Create a Twitter app at https://apps.twitter.com/ to get credentials
 
-How to run:
-* Pass twitter username string as argument to _get_all_tweets()_ in _userTweets_to_sqlite.py_
-* Pass tuple of keywords strings to be filtered as argument to _get_tweets_stream()_ in _streamTweets_to_sqlite.py_
+__How to run:__
+* Pass twitter username string as argument to `get_all_tweets()` in _userTweets_to_sqlite.py_
+* Pass tuple of keywords strings to be filtered as argument to `get_tweets_stream()` in _streamTweets_to_sqlite.py_
 * Run command line: `$ python xxxTweets_to_sqlite`
 
 
