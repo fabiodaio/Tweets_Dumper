@@ -17,8 +17,8 @@ __Requirements:__
 __How to run:__
 * Pass twitter username string as argument to `get_all_tweets()` in _userTweets_to_sqlite.py_
 * Pass tuple of keywords strings to be filtered as argument to `get_tweets_stream()` in _streamTweets_to_sqlite.py_
-* Run command line: `$ python xxxTweets_to_sqlite`
+* Run command line: `$ python xxxTweets_to_SQLite` or `$ python xxxTweets_to_MongoDB`
 
 
 To know what the collected data looks like before being written to the database, check examples of outputs from Tweepy framework in _tweets_structure_ folder.
-p.s.: the array object returned from Tweepy has an \_json item which contains the _JSON_ version of the tweets.
+p.s.: the array object returned from Tweepy has an __\_json__ item which contains the __JSON__ version of the tweets.
